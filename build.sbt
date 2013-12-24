@@ -40,6 +40,10 @@ publishTo := Some("releases" at "https://oss.sonatype.org/service/local/staging/
 
 pomIncludeRepository := { _ => false }
 
+autoScalaLibrary := false
+
+crossPaths := false
+
 pomExtra := (
 	<developers>
 		<developer>
