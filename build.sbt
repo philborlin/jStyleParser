@@ -25,9 +25,9 @@ libraryDependencies ++= Seq(
 
 // Logging
 libraryDependencies ++= Seq(
-	"ch.qos.logback" % "logback-classic" % "0.9.9",
-	"ch.qos.logback" % "logback-core" % "0.9.9",
-	"org.slf4j" % "slf4j-api" % "1.5.2"
+	"ch.qos.logback" % "logback-classic" % "1.0.13",
+	"ch.qos.logback" % "logback-core" % "1.0.13",
+	"org.slf4j" % "slf4j-api" % "1.7.5"
 )
 
 EclipseKeys.projectFlavor := EclipseProjectFlavor.Java
