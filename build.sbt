@@ -30,6 +30,8 @@ libraryDependencies ++= Seq(
 	"org.slf4j" % "slf4j-api" % "1.7.5"
 )
 
+javacOptions ++= Seq("-encoding", "utf-8")
+
 EclipseKeys.projectFlavor := EclipseProjectFlavor.Java
 
 unmanagedSourceDirectories in Compile <<= (javaSource in Compile)(Seq(_))
